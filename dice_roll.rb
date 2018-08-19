@@ -5,20 +5,20 @@
 
 #With argument and Range
 def roll(min, max)
-  return rand(min..max)
+  return rand(1..6)
 end 
   
 puts roll(1,6)
 
-#With Arrays
-array = [1, 2, 3, 4, 5, 6]
-def roll(array)
-  return rand(array.length).to_i
-end 
-roll(array)
+# #With Arrays
+# array = [1, 2, 3, 4, 5, 6]
+# def roll(array)
+#   return rand(array.length).to_i
+# end 
+# roll(array)
 
-# Using range only 
-def roll
- rand(1..6)
-end
-p roll
+# # Using range only 
+# def roll
+# rand(1..6)
+# end
+# p roll
