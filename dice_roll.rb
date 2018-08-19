@@ -8,7 +8,7 @@ def roll(min, max)
   return rand(1..6)
 end 
   
-puts roll(1,6)
+puts roll()
 
 # #With Arrays
 # array = [1, 2, 3, 4, 5, 6]
