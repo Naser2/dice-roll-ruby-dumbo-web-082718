@@ -1,5 +1,5 @@
 require_relative '../dice_roll'
-require_relative './dice_roll.rb'
+require_relative '../dice_roll.rb'
 
 describe "#roll" do
 
