@@ -8,7 +8,7 @@ def roll(range)
   return rand(1..6)
 end 
   
-p roll()
+p roll(6)
 
 # #With Arrays
 # array = [1, 2, 3, 4, 5, 6]
