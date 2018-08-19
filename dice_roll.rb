@@ -16,3 +16,7 @@
 #   return rand(array.length).to_i
 # end 
 # roll(array)
+def roll
+ rand(1..6)
+end
+p roll
