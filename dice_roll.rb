@@ -7,4 +7,4 @@ def roll(min, max)
   
 end 
   
-roll(1,6)
+puts roll(1,6)
