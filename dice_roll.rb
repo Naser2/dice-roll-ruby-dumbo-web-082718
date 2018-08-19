@@ -11,8 +11,8 @@
   
 # puts roll(1,6)
 
-array = [1, 2, 3, 4, 5, 6]
-def roll(array)
-  return rand(array.length).to_i
-end 
-roll(array)
+# array = [1, 2, 3, 4, 5, 6]
+# def roll(array)
+#   return rand(array.length).to_i
+# end 
+# roll(array)
