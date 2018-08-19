@@ -4,11 +4,11 @@
 # Feel free to google "how to generate a random number in ruby"
 
 #With argument and Range
-def roll(min, max)
+def roll(range)
   return rand(1..6)
 end 
   
-puts roll()
+p roll()
 
 # #With Arrays
 # array = [1, 2, 3, 4, 5, 6]
