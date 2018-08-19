@@ -6,7 +6,6 @@
 #With argument and Range
 def roll(min, max)
   return rand(min..max)
-  
 end 
   
 puts roll(1,6)
@@ -18,7 +17,7 @@ def roll(array)
 end 
 roll(array)
 
-
+# Using range only 
 def roll
  rand(1..6)
 end
