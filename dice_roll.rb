@@ -3,16 +3,17 @@
 
 # Feel free to google "how to generate a random number in ruby"
 
-def roll(min, max)
-  return rand(min..max)
+#this works with ranges
+# def roll(min, max)
+#   return rand(min..max)
   
-end 
+# end 
   
-puts roll(1,6)
+# puts roll(1,6)
 
 array = [1, 2, 3, 4, 5, 6]
-def roll()
-  return rand.array
+def roll(array)
+  return rand(array.length)
 end 
 
 roll(array)
