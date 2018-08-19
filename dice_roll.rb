@@ -4,5 +4,7 @@
 
 def roll(min, max)
   return rand(min...max)
-  end 
+  
+end 
+  
 roll(1,6)
