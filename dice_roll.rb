@@ -3,7 +3,7 @@
 
 # Feel free to google "how to generate a random number in ruby"
 
-With argument and Range from min to max
+#With argument and Range from min to max
 def roll(min, max)
   return rand(min..max)
 end 
